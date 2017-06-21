@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f94db010-58f1-49f0-83a7-90c7c24c65b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/TryHere.class" afterPath="$PROJECT_DIR$/out/production/Practice/TryHere.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TryHere.java" afterPath="$PROJECT_DIR$/src/TryHere.java" />
     </list>
