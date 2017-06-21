@@ -1,3 +1,4 @@
+import com.sun.javafx.image.BytePixelSetter;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Scanner;
@@ -52,13 +53,37 @@ public class TryHere
         }
     }
 
-    
+    protected static void factorial(int number)
+    {
+        int factorial = 1;
+        for(int i = 2; i <= number; i++)
+        {
+            factorial = factorial*i;
+        }
+        System.out.println("Factorial of " + number + " is " + factorial);
+    }
 
+    protected static void palindromeString(String string)
+    {
+        StringBuffer strbuffer = new StringBuffer(string);
+        String reverse = strbuffer.reverse().toString();
+
+        if(string.equals(reverse))
+        {
+            System.out.println("The String that you entered is a Palindrome");
+        }
+        else
+        {
+            System.out.println("The String that you entered is not a Palindrome");
+        }
+
+    }
+    
 
 
     public static void main(String args[])
     {
-        primeNumber(-56);
+        palindromeString("abba");
 
     }
 }
